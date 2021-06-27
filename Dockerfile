@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM adoptopenjdk/openjdk16:alpine-jre
 
 MAINTAINER rl <robin@synt3x.com>
 
@@ -14,7 +14,7 @@ COPY mc_run.sh /mc_run.sh
 RUN chmod +x /mc_run.sh
 
 RUN apk update
-RUN apk --no-cache add git
+RUN apk --no-cache add git wget
 
 EXPOSE 25565
 EXPOSE 25566
