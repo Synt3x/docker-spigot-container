@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk16:alpine-jre
+FROM eclipse-temurin:17-alpine
 
 MAINTAINER rl <robin@synt3x.com>
 
