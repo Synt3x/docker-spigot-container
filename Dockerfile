@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-alpine
+FROM eclipse-temurin:22-jdk-alpine
 
 MAINTAINER rl <robin@synt3x.com>
 
